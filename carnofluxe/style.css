@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+
+#main {
+	background-image: url('background.jpg');
+	background-size: 100%;
+	height:100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    -ms-filter: blur(5px);
+}
+#main {
+	line-height: 22px;
+	text-align: center;
+}
+.first {
+	font-family: 'Lato Black', sans-serif;
+	font-size: 30px;
+	top: 45%;
+	left: 40%;
+	position: absolute;
+}
+.second {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	top: 50%;
+	left: 43.3%;
+	position: absolute;
+}
